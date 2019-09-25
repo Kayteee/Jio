@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Jio.com</title>
+</head>
+<body>
+    <form>
+        <label>Laptop:</label>
+            <select id="purpose"name="Laptop" >
+                <option disabled selected value> -Select a laptop- </option>
+                <option value='Apple'>Apple</option>
+                <option value='Dell'>Dell</option>
+                <option value='HP'>HP</option>
+            </select>
+
+            <div onclick="hideApple()"style='display:none;'id='Apple'>Apple Laptop<br/>&nbsp;
+                <br/>&nbsp;     
+                <img class="image"src="images/apple.jpg" style="width:250px">
+                <p>Screen Size:14 inches</p>
+                <p>Ram Size:16 GB</p>
+                <p>Resolution:1440 Pixels</p>
+                <p>Cost:Rs 80000</p>
+                <br/>
+            
+            </div>
+            <div onclick="hideDell()"style='display:none;'id='Dell'>Dell Laptop<br/>&nbsp;
+                <br/>&nbsp;
+                <img src="images/dell.jpg"style="width:250px">
+                <p>Screen Size:16 inches</p>
+                <p>Ram Size:8 GB</p>
+                <p>Resolution:1080 Pixels</p>
+                <p>Cost:Rs 60000</p>
+                <br/>   
+            </div>
+           
+            <div onclick="hideHp()"style='display:none;'id='HP'>HP Laptop<br/>&nbsp;
+                <br/>&nbsp;
+                <img src="images/hp.jpg"style="width:250px">
+                <p>Screen Size:15 inches</p>
+                <p>Ram Size:4 GB</p>
+                <p>Resolution:720 Pixels</p>
+                <p>Cost:Rs 50000</p>
+                <br/>
+            </div>
+            
+            
+    </form>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"> </script>  
+<script src="script.js"></script>
+</body>
+</html>

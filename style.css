@@ -1,0 +1,14 @@
+#id{    
+margin:10px;
+top:0;
+left:0;
+}
+#Apple,#Dell,#HP{
+    display:flex;
+    flex-direction: column;
+    margin:30px;
+    padding:20px;
+    width: 25%;
+    height: 40%;
+    border: 2px solid black;
+}
